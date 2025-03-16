@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-import { logoutUser } from '../../api';
+import { logoutUser } from '../../api/auth.js';
 
 const Navbar = () => {
     const navigate = useNavigate();

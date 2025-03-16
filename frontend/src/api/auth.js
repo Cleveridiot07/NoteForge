@@ -2,8 +2,8 @@
 const BASE_URL = import.meta.env.VITE_BASE_URL + "/auth";
 const u = import.meta.env.VITE_BASE_URL;
 
-console.log('VITE_BASE_URL:', u); // Should log 'http://localhost:5000/api'
-console.log('BASE_URL:', BASE_URL); // Should log 'http://localhost:5000/api/auth'
+console.log('VITE_BASE_URL:', u);
+console.log('BASE_URL:', BASE_URL); 
 
 export const loginUser = async (credentials) => {
   try {

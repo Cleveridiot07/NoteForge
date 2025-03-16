@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import { signupUser } from '../../api/auth'; // Assuming you have an api/auth.js file with signUser function
+import { signupUser } from '../../api/auth.js'; // Assuming you have an api/auth.js file with signUser function
 
 const SignUp = () => {
     const navigate = useNavigate();

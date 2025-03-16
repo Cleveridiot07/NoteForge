@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import EditNoteForm from '../../components/EditNote/EditNoteForm';
-import Alert from '../../components/Alert/Alert';
-import { fetchNotes } from '../../api'; // Assuming you have an API function to fetch notes
+import EditNoteForm from '../../components/EditNote/EditNoteForm.jsx';
+import Alert from '../../components/Alert/Alert.jsx';
+import { fetchNotes } from '../../api/notes.js'; // Assuming you have an API function to fetch notes
 import { useNavigate } from 'react-router-dom';
-import Note from '../../components/Note/Note';
+import Note from '../../components/Note/Note.jsx';
 
 const Home = () => {
   const [editNoteOpen, setEditNoteOpen] = useState(false);

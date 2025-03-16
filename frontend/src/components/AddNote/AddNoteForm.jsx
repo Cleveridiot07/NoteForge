@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createNote } from '../../api';
+import { createNote } from '../../api/notes.js';
 import { useNavigate } from 'react-router-dom';
 import { colors } from '../../utils/NotesThemes.utils';
 

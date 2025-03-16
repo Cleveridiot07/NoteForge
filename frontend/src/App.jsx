@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import SignUp from './pages/SignUp/SignUp';
-import Login from './pages/Login/Login';
-import Navbar from './components/Navbar/Navbar';
-import Home from './pages/Home/Home';
-import AddNote from './components/AddNote/AddNote';
-import AddNoteForm from './components/AddNote/AddNoteForm';
-import CloseAddNote from './components/AddNote/CloseAddNote';
-import EditNoteForm from './components/EditNote/EditNoteForm';
+import SignUp from './pages/SignUp/SignUp.jsx';
+import Login from './pages/Login/Login.jsSignUp.jsx';
+import Navbar from './components/Navbar/Navbar.jsSignUp.jsx';
+import Home from './pages/Home/Home.jsSignUp.jsx';
+import AddNote from './components/AddNote/AddNote.jsSignUp.jsx';
+import AddNoteForm from './components/AddNote/AddNoteForm.jsSignUp.jsx';
+import CloseAddNote from './components/AddNote/CloseAddNote.jsSignUp.jsx';
 
 const App = () => {
   const [addNoteOpen, setAddNoteOpen] = useState(false);

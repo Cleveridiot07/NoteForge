@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { updateNote } from '../../api';
+import { updateNote } from '../../api/notes.js';
 import { useNavigate } from 'react-router-dom';
 
 const EditNoteForm = (props) => {
